@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 10vh;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    height: 100vh;
+    border: 2px solid rgb(240, 0, 0);
+    overflow: scroll;
+}
+
+.searchBox{
+    height: 35px;
+    font-size: 22px;
+    width: 50vw;
+}
+
+.logo-holder{
+    width: 12vh;
+    height: 10vh;
+}
+
+.search{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: maroon;
+}
+
+.news-image{
+    height: 45px;
+}
+
+.newslist{
+    display: flex;
+    flex-direction: row;
+}
+
+.newscol{
+    display: flex;
+    flex-direction: column;
+}
